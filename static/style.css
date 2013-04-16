@@ -1,0 +1,89 @@
+html {
+}
+
+body {
+  display: block;
+  background-color: white;
+  max-width: 800px;
+  /*padding: 1em;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  padding: 5px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+thead {
+  background-color: #EEE;
+  padding: 0px;
+}
+
+label {
+  margin-right: 2em;
+}
+
+#admin-link {
+  float: right;
+}
+
+#navbar {
+  /*border-top: 1px solid black;*/
+  border-bottom: 1px solid black;
+}
+#navbar *:first-child {
+  margin-left: 0px;
+}
+#navbar * {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+#navbar a {
+  text-decoration: none;
+}
+
+
+#content {
+  padding: 1em;
+}
+
+.subnav {
+  border-bottom: 1px solid black;
+}
+.subnav * {
+  margin-right: 0.25em;
+}
+.subnav a {
+  text-decoration: none;
+}
+
+
+.warning {
+  background-color: #A00;
+  color: white;
+  font-weight: bold;
+  padding: 1em;
+}
+
+
+.page-edit-controls {
+  margin: 10px;
+}
+.page-edit-controls span {
+  border: 3px solid #EEE;
+  background-color: #DDD;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+/*
+.subnav * {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.subnav a {
+  text-decoration: none;
+}*/
